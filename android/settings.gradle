@@ -1,0 +1,3 @@
+rootProject.name = 'chatmetricsapplication'
+
+include ':app'
