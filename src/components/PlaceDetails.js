@@ -7,7 +7,7 @@ const placeDetails = props => {
         modelContent = (
             <View>
                 <Image source={props.selectedPlace.image} style={styles.modalImage} />
-                <Text style={styles.placeName}>{props.selectedPlace.place}</Text>
+                <Text style={styles.placeName}>{props.selectedPlace.name}</Text>
             </View>
         );
     }
