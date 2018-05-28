@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/exploded-aar/chatmetricsapplication/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="287420ff752bed87f86fa8324ce5f55b30057b30">
+        <dex dex="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/pre-dexed/debug/chatmetricsapplication-react-native-navigation-unspecified_9ea8c22b48a44087a12c79f3c9e1d47a4894500f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/exploded-aar/chatmetricsapplication/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="001d8a96417bf5d83cb2759a3bb0d635101dda4c">
+        <dex dex="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/pre-dexed/debug/chatmetricsapplication-react-native-vector-icons-unspecified_844dc9244a493812f39d1b69cf84275f373ef138.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/exploded-aar/chatmetricsapplication/react-native-vector-icons/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="001d8a96417bf5d83cb2759a3bb0d635101dda4c">
+        <dex dex="/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/pre-dexed/debug/chatmetricsapplication-react-native-vector-icons-unspecified_844dc9244a493812f39d1b69cf84275f373ef138.jar" />
+    </item>
+
+</items>

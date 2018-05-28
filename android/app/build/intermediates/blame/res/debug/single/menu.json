@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/res/merged/debug/menu/search_item.xml",
+        "source": "/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/exploded-aar/chatmetricsapplication/react-native-navigation/unspecified/res/menu/search_item.xml"
+    },
+    {
+        "merged": "/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/res/merged/debug/menu/stub.xml",
+        "source": "/home/webcubictech2/code/react-native-applications/chat-metrics-application/android/app/build/intermediates/exploded-aar/chatmetricsapplication/react-native-navigation/unspecified/res/menu/stub.xml"
+    }
+]
