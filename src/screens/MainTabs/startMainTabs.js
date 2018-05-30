@@ -1,5 +1,5 @@
 import { Navigation } from 'react-native-navigation';
-import Icons from 'react-native-vector-icons/Ionicons'
+import Icons from 'react-native-vector-icons/Ionicons';
 
 
 const startTabs = () => {
@@ -9,12 +9,18 @@ const startTabs = () => {
         Icons.getImageSource("ios-menu", 30)
     ]).then(sources => {
         Navigation.startTabBasedApp({
+            appStyle: {
+                keepStyleAcrossPush: false
+            },
             tabs: [
                 {
                     screen: "awesome-places.FindPlace",
                     label: "Find place",
                     title: "Find place",
                     icon: sources[0],
+                    navigatorStyle: {
+                        statusBarColor: "#0091f1"
+                    },
                     navigatorButtons: {
                         leftButtons: [
                             {
@@ -23,7 +29,7 @@ const startTabs = () => {
                                 id: "sideDrawerToggle"
                             }
                         ]
-                    }
+                    },
                 },
 
                 {
@@ -31,6 +37,9 @@ const startTabs = () => {
                     label: "Share place",
                     title: "Share place",
                     icon: sources[1],
+                    navigatorStyle: {
+                        statusBarColor: "#0091f1"
+                    },
                     navigatorButtons: {
                         leftButtons: [
                             {
@@ -39,14 +48,18 @@ const startTabs = () => {
                                 id: "sideDrawerToggle"
                             }
                         ]
-                    }
+                    },
                 }
             ],
 
             drawer: {
                 left: {
                     screen: "awesome-places.SideDrawer"
-                }
+                },
+
+                navigatorStyle: {
+                    statusBarColor: "#fff"
+                },
             }
         })
     })
